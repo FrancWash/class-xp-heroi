@@ -1,5 +1,12 @@
 let nomeDoHeroi = "Homem de Férro"
 let xpDoHeroi = 5.548
 
-console.log("Olá, eu sou o: " + nomeDoHeroi + " 🍩")
-console.log("E meu poder é superior a esses monstros que querem invadir a terra " + xpDoHeroi + " 💪")
+switch(xpDoHeroi){
+    case 5.548:
+        console.log("O herói de nome " + nomeDoHeroi + " está no nível Ascedente ")
+    break
+    case "2.155":
+        console.log("Nível do herói é Prata")
+    break    
+}
+
